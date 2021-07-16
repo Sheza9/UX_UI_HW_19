@@ -1,13 +1,24 @@
 console.log("your index.js file is loaded correctly!");
-
-
-$(function(){
-    $('ul.parent > li').hover(function() {
-        $(this).find('ul.child').show(200);
-    }, function(){
-        $(this).find('ul.child').hide(200);
-    });
+$(document).ready(function(){
+$("button").on({
+    mouseenter: function(){
+      $(this).css("background-color", "lightgray");
+    },  
+    mouseleave: function(){
+      $(this).css("background-color", "lightblue");
+    }, 
+    click: function(){
+      $(this).css("background-color", "red");
+    }  
+  });
 });
 
 
-// had a go at a dropdown for contact me section. code wont seem to work?
+$(document).ready(function(){
+    $(".parent").click(function(){
+      $(".child").slideDown("slow");
+   
+
+
+  
+ 

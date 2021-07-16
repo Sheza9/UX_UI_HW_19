@@ -129,7 +129,7 @@ a:hover, a:active {
   background-color: red;
 }
 
-ul.child{
+.child{
   display: none;
   width: 100% !important;
 }

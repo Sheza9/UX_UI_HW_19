@@ -3,15 +3,20 @@
   <head>
     <title>Homework 19</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="js/index.js">
+    </script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript">
+    </script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </head>
   <body>
     <header>
       <img src="images/logo.png">
-      <ul class="parent">
+      <ul >
         <li>ABOUT</li>
         <li>SKILLS</li>
         <li class="myWorkScroll"><a href="#myWork1">WORK</a></li>
-        <li>CONTACT
+        <li class="parent">CONTACT
             <ul class="child"> 
               <li>4072210917</li>
               <li>stephenharrion9@gmail.com</li>
@@ -24,7 +29,9 @@
         <img src="images/placeholder_picture.png">
         <h1>Your Name</h1>
         <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua.</p>
-        <button>Download Resume</button>
+        <form method="get" action="file.doc">
+        <button class="downloadBtn" type="submit">Download Resume</button>
+        </form>  
       </div>
     </section>
     <h1 class="heading">My UX Skills</h1>
@@ -84,6 +91,5 @@
       </ul>
     </footer>
   </body>
-  <script src="js/index.js">
-  </script>
+  
 </html>
