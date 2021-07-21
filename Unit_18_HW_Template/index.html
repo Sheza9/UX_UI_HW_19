@@ -3,16 +3,18 @@
   <head>
     <title>Homework 19</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/index.js">
     </script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript">
-    </script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </head>
   <body>
     <header>
       <img src="images/logo.png">
       <ul >
+      </li>
         <li>ABOUT</li>
         <li>SKILLS</li>
         <li class="myWorkScroll"><a href="#myWork1">WORK</a></li>
@@ -24,6 +26,10 @@
         </li>
       </ul>
     </header>
+   
+    
+   
+   
     <section class="heroImg">
       <div class="content">
         <img src="images/placeholder_picture.png">
@@ -34,53 +40,57 @@
         </form>  
       </div>
     </section>
-    <h1 class="heading">My UX Skills</h1>
-    <section class="flexContainer" class="fadeIn">
-      <div>
-        <img src="images/placeholderSkill.png">
-        <h3>User Research</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
-      </div>
-      <div>
-        <img src="images/placeholderSkill.png">
-        <h3>User Interface Design</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
-      </div>
-      <div>
-        <img src="images/placeholderSkill.png">
-        <h3>Web Development</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
-      </div>
+    <div class="fadeIn">
+      <h1 class="heading">My UX Skills</h1>
+      <section class="flexContainer" class="fadeIn">
+        <div>
+          <img src="images/placeholderSkill.png">
+          <h3>User Research</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
+        </div>
+        <div>
+          <img src="images/placeholderSkill.png">
+          <h3>User Interface Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
+        </div>
+        <div>
+          <img src="images/placeholderSkill.png">
+          <h3>Web Development</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
+        </div>
+    </div>
     </section>
 
     <section class="myWork" id="myWork1">
       <h1 class="heading">My Work</h1>
       <div class="workGrid">
-        <div class="img1">
+        <div class="img1 move1">
           <img src="images/placeholder_picture.png">
         </div>
         <div class="content1">
           <h4>User Research</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button>View Project</button>
+          <p class="move2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <button class="move2">View Project</button>
         </div>
-        <div class="img2">
+        <div class="img2 move1">
           <img src="images/placeholder_picture.png">
         </div>
         <div class="content2">
           <h4>User Research</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button>View Project</button>
+          <p class="move2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <button class="move2">View Project</button>
         </div>
-        <div class="img3">
+        <div class="img3 move1">
           <img src="images/placeholder_picture.png">
         </div>
         <div class="content3">
           <h4>User Research</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button>View Project</button>
+          <p class="move2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <button class="move2">View Project</button>
         </div>
       </div>
+
+
     </section>
     <footer>
       <ul>
@@ -92,4 +102,5 @@
     </footer>
   </body>
   
+
 </html>
